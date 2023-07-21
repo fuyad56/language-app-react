@@ -1,0 +1,18 @@
+.services {
+    margin: 100px 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.services h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}

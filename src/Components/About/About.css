@@ -1,0 +1,55 @@
+.about {
+    margin: 100px 200px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about h1 {
+    margin-bottom: 80px;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-content img {
+    height: 30rem;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px lightgray;
+}
+
+.about-content-item {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 50px 100px;
+    width: 50%;
+}
+
+.about-content-item h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.about-content-item h2 span {
+    font-size: 3.5rem;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.about-content-item p {
+    font-size: 1rem;
+    font-weight: 500;
+}
